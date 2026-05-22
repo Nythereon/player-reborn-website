@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Legendz Reborn</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- NAVBAR -->
+	<nav class="navbar navbar-expand-lg">
+
+		<div class="container">
+
+			<a class="navbar-brand d-flex align-items-center" href="index.html">
+				<img src="assets/images/player-reborn/logo.png" height="60">
+				<span class="brand-text">
+					Legendz<span class="highlight">Reborn</span>
+				</span>
+			</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav"
+				aria-controls="nav" aria-expanded="false">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="nav">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item"><a href="index.html" class="nav-link active">Home</a></li>
+					<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+				</ul>
+
+				<a href="https://discord.gg/playerreborn" target="_blank" class="btn join-btn">
+					<i class="bi bi-discord icon-discord me-2"></i>
+					Join Discord
+				</a>
+			</div>
+
+		</div>
+	</nav>
+
+	<!-- HERO -->
+	<section class="container mt-5">
+
+		<div class="card-box hero-background row align-items-center">
+
+			<div class="d-flex flex-column col-lg-8">
+
+				<div class="col-lg-9">
+					<h1 class="hero-title">Your hub for everything</h1>
+					<h1 class="hero-brand highlight mb-4">Legendz Reborn.</h1>
+
+					<p class="muted hero-text">
+						Monitor server activity, see what the community is playing, and access
+						everything you need in one place.
+					</p>
+				</div>
+
+				<div class="row g-3 mt-2">
+
+					<!-- Online Members -->
+					<div class="col-md-6">
+						<div class="card-box d-flex justify-content-center align-items-center h-100">
+
+							<i class="bi bi-people-fill icon-large me-5"></i>
+
+							<div class="d-flex flex-column text-center">
+								<h4 class="m-0">Online Members</h4>
+
+								<span class="highlight" id="online-count">6</span>
+
+								<div class="d-flex align-items-center justify-content-center">
+									<span class="status-dot status-online"></span>
+
+									<p class="muted m-0 ms-2">
+										Members online in Discord right now
+									</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- Online Servers -->
+					<div class="col-md-6">
+						<div class="card-box d-flex justify-content-center align-items-center h-100">
+
+							<i class="bi bi-hdd-rack-fill icon-large me-5"></i>
+
+							<div class="d-flex flex-column text-center">
+								<h4 class="m-0">Active Servers</h4>
+
+								<span class="highlight" id="server-count">2</span>
+
+								<div class="d-flex align-items-center justify-content-center">
+									<span class="status-dot status-online"></span>
+
+									<p class="muted m-0 ms-2">
+										Servers currently online and active
+									</p>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+			<!-- Hero Logo -->
+			<div class="col-lg-4 text-center mt-4 mt-lg-0 hero-logo">
+				<img src="assets/images/legendz-reborn/logo.png" alt="Player Reborn Logo" class="img-fluid"
+					style="max-height: 400px;">
+			</div>
+
+		</div>
+	</section>
+
+	<!-- GRID -->
+	<section class="container mb-5">
+
+		<!-- GAMES WERE PLAYING -->
+		<div class="d-flex align-items-center mb-3">
+			<i class="bi bi-discord icon-discord-large me-3 highlight"></i>
+			<h4 class="m-0">Top Games We're Playing</h4>
+		</div>
+
+		<!-- GAMES -->
+		<div class="row g-3 mb-4">
+
+			<!-- Baldurs Gate 3 -->
+			<div class="col-lg-2 col-md-4 col-6">
+				<div class="card h-100">
+					<img src="assets/images/game-cover/baldurs-gate-3.jpeg" alt="baldurs gate 3 cover art" height="250"
+						width="100%">
+
+					<div class="card-body">
+						<p class="mb-0">Baldurs Gate 3</p>
+
+						<div class="d-flex align-items-center">
+							<i class="bi bi-people-fill icon"></i>
+							<p class="m-0 ms-2 highlight">2 Online</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Phasmophobia -->
+			<div class="col-lg-2 col-md-4 col-6">
+				<div class="card h-100">
+					<img src="assets/images/game-cover/phasmophobia.jpeg" alt="phasmophobia cover art" height="250"
+						width="100%">
+
+					<div class="card-body">
+						<p class="mb-0">Phasmophobia</p>
+
+						<div class="d-flex align-items-center">
+							<i class="bi bi-people-fill icon"></i>
+							<p class="m-0 ms-2 highlight">2 Online</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Halo -->
+			<div class="col-lg-2 col-md-4 col-6">
+				<div class="card h-100">
+					<img src="assets/images/game-cover/halo-inifinte.jpeg" alt="halo inifinite cover art" height="250"
+						width="100%">
+
+					<div class="card-body">
+						<p class="mb-0">Halo Infinite Multiplayer</p>
+
+						<div class="d-flex align-items-center">
+							<i class="bi bi-people-fill icon"></i>
+							<p class="m-0 ms-2 highlight">2 Online</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Valhheim -->
+			<div class="col-lg-2 col-md-4 col-6">
+				<div class="card h-100">
+					<img src="assets/images/game-cover/valheim.jpeg" alt="valheim cover art" height="250" width="100%">
+
+					<div class="card-body">
+						<p class="mb-0">Valheim</p>
+
+						<div class="d-flex align-items-center">
+							<i class="bi bi-people-fill icon"></i>
+							<p class="m-0 ms-2 highlight">2 Online</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Rocket League -->
+			<div class="col-lg-2 col-md-4 col-6">
+				<div class="card h-100">
+					<img src="assets/images/game-cover/rocket-league.jpeg" alt="rocket league cover art" height="250"
+						width="100%">
+
+					<div class="card-body">
+						<p class="mb-0">Rocket League</p>
+
+						<div class="d-flex align-items-center">
+							<i class="bi bi-people-fill icon"></i>
+							<p class="m-0 ms-2 highlight">2 Online</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Minecraft -->
+			<div class="col-lg-2 col-md-4 col-6">
+				<div class="card h-100">
+					<img src="assets/images/game-cover/minecraft.jpeg" alt="minecraft cover art" height="250"
+						width="100%">
+
+					<div class="card-body">
+						<p class="mb-0">Minecraft</p>
+
+						<div class="d-flex align-items-center">
+							<i class="bi bi-people-fill icon"></i>
+							<p class="m-0 ms-2 highlight">2 Online</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+
+		<!-- SERVERS -->
+		<div class="card-box">
+
+			<!-- Header -->
+			<div class="d-flex align-items-center mb-2">
+				<i class="bi bi-activity icon-large me-3"></i>
+				<div>
+					<h4 class="m-0">Live Server Status</h4>
+					<p class="muted m-0">
+						Real-time status and uptime for all our community servers
+					</p>
+				</div>
+			</div>
+
+			<!-- Table Container -->
+			<div class="p-3 rounded dark">
+
+				<!-- Column Labels -->
+				<div class="row mb-3 server-tags">
+					<div class="col-md-4 col-12">SERVER</div>
+					<div class="col-md-2 col-3">GAME</div>
+					<div class="col-md-2 col-3">STATUS</div>
+					<div class="col-md-2 col-3">PLAYERS</div>
+					<div class="col-md-2 col-3">UPTIME</div>
+				</div>
+
+				<!-- Server List -->
+				<div class="midnight-slate px-1 py-2 server-list">
+
+					<!-- Row 1 -->
+					<div class="row align-items-center mb-4 mt-2">
+
+						<div class="col-md-4 col-12">
+							<div>Survival Server</div>
+							<small class="muted">play.legendzreborn.com</small>
+						</div>
+
+						<div class="col-md-2 col-3">Minecraft</div>
+
+						<div class="col-md-2 col-3 d-flex align-items-center">
+							<span class="status-dot status-online me-2"></span>
+							<span>Online</span>
+						</div>
+
+						<div class="col-md-2 col-3">2/100</div>
+
+						<div class="col-md-2 col-3">99.8%</div>
+
+					</div>
+
+					<!-- Row 2 -->
+					<div class="row align-items-center mb-2">
+
+						<div class="col-md-4 col-12">
+							<div>Palworld Server</div>
+							<span class="muted">play.legendzreborn.com</span>
+						</div>
+
+						<div class="col-md-2 col-3">
+							<div>Palworld</div>
+						</div>
+
+						<div class="col-md-2 col-3 d-flex align-items-center">
+							<span class="status-dot status-online me-2"></span>
+							<span>Online</span>
+						</div>
+
+						<div class="col-md-2 col-3">4/50</div>
+
+						<div class="col-md-2 col-3">98.5%</div>
+
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="text-center py-3">
+		© 2026 Legendz Reborn
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="script.js"></script>
+
+</body>
+
+</html>
