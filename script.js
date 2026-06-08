@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function loadGames() {
-  fetch("http://127.0.0.1:8000/games_table")
+  fetch("http://api.playerreborn.com/games_table")
     .then((res) => res.json())
     .then((data) => {
       const gameContainer = document.getElementById("game-container");
@@ -56,7 +56,7 @@ function loadGames() {
 }
 
 function loadServers() {
-  fetch("http://127.0.0.1:8000/servers_table")
+  fetch("http://api.playerreborn.com/servers_table")
     .then((res) => res.json())
     .then((data) => {
       const serverPlayerCountId = document.querySelector(
