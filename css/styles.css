@@ -227,7 +227,7 @@ h6 {
 /* ================ HERO ================== */
 
 .hero-background {
-  background-image: url("../assets/images/legendz-reborn/background.png");
+  background-image: url("../assets/images/player-reborn/background.png");
 }
 
 .hero-title {
@@ -269,7 +269,8 @@ li {
 }
 
 .status-offline {
-  background-color: #6b7280;
+  background-color: #ef4444;
+  box-shadow: 0 0 6px #ef4444;
 }
 
 /* ================= FOOTER ================= */
